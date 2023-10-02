@@ -1,0 +1,44 @@
+// function 
+
+function multi(a,b){
+    return a*b;
+}
+console.log(multi(2,6));
+
+function add (a,b,c){
+    return a+b+c;
+}
+console.log(add(2,6,8));
+
+function per(a,c){
+    return c/a;
+}
+console.log(per(200,20000));
+
+// Anonymous function
+
+let sub = function (a,b){
+    return a+b;
+    }
+    console.log(sub(98,72));
+ 
+ //Arrow function
+ 
+ let percentage = (a,b) => {
+     return a%b;
+     }
+     console.log(percentage(200,2));
+     
+let text = ()=> {
+    console.log("HI developer");
+}
+text();
+
+
+//
+12
+16
+100
+170
+0
+HI developer
